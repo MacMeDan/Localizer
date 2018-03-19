@@ -3,21 +3,20 @@
 The purpose of this project is to help with managing Localized strings in a way that gives ease of use, safety and autocompletion.
 
 ## Usage
+There are a few ways to use this project. You can just run the `command line tool` ie just run the project. or for more advanced usage you can create an executable so that you can run this script anytime you would like.
 
-There are a few ways to use this projcet. You can just run the `commandline tool` ie just run the project.
-or
-for more advanced usage you can create an exicutable so that you can run this script anytime you would like.
 
 ## Command Line tool usage
 
 Specify the source file
 Specify the destination file
-Specify the destination for the generated `ResourceFile.swift`
+Specify the destination for the generated ResourceFile.swift
+
 
 ### Displayed options
 
 ### Please select an option:
-1) Add new entry with auto gernerated key
+1) Add new entry with auto generated key
 2) Add new entry with specified key
 3) Generate Resources
 4) Generate Strings
@@ -25,9 +24,9 @@ Specify the destination for the generated `ResourceFile.swift`
 6) Find Strings in file
 
 
-### 1 Add new entry with auto gernerated key
+### 1 Add new entry with auto generated key
 
-auto generates a key based off of the string you entered by  `camelCaseing` the phrase and removeing spaces.
+auto generates a key based off of the string you entered by  `camelCaseing` the phrase and removing spaces.
 Adds that entry to the `locolizable.strings` file.
 
 ### 2 Add new entry with specified key
@@ -48,31 +47,31 @@ This option takes your Localizable.Strings file and sorts it by the `Value` of t
 
 ### 6 Find Strings in file
 1) Asks for the path to a file
-2) Parses the file for any Strings wrapped in the `"` Charicter
+2) Parses the file for any Strings wrapped in the `"` Character
 3) Generates and sorts alphabetically an entry into the `Localizable.strings` file
 4) Generates an Entry into the `Resources.swift` `enum`
-5) Replaces the `String` with a referance to the Resource IE `R.newGeneratedKey` so you dont have to.
+5) Replaces the `String` with a reference to the Resource IE `R.newGeneratedKey` so you don’t have to.
 
 # Exicutable Script
 
-To generate a exicutable script you have to combine all neccecery pieces of this project into a single exicutable. By default the exicutable automatically exicutes a modified version of option `6 Find Strings in file` of the command line tool but instead of prompting for the path it takes the path to a folder as a parameter. It will then look for any file within that folder that is of type `.swift` and scan it for unlocalised strings.
+To generate a executable script you have to combine all necessary pieces of this project into a single executable. By default the executable automatically executes a modified version of option `6 Find Strings in file` of the command line tool but instead of prompting for the path it takes the path to a folder as a parameter. It will then look for any file within that folder that is of type `.swift` and scan it for unlocalized strings.
 
-You can modifiy the scripts as you please to sute your own needs and regenerate the exicutable script.
+You can modify the scripts as you please to suite your own needs and regenerate the exicutable script.
 
-To create an exicutable you will need to combine all dependencies including extentions. To create the `Locolizer` exicutable that is found in this project you just need to navigage throught `terminal` to this project on your computer. Then run this command :
+To create an executable you will need to combine all dependencies including extensions. To create the `Locolizer` exicutable that is found in this project you just need to navigate thought `terminal` to this project on your computer. Then run this command :
 `swiftc FileLocalizer.swift extensions/url.swift extensions/Strings.swift -o Localizer`
 
 This creates an exicutable named `Localizer`. To use this script you preface it with `./` then the script `Localizer` add a space to seperate the script from the parameter then add the parameter which is a path to a folder in your project.
 `./Localizer "/Users/macmedan/Swift/auto-source-inspection/InspectionTool/views"`
 
-Then watch the majic happen. Make sure to review all changes that have been made to your project and that they are correct. Open a new issue and submit a fix if there is a way to improve the project. 
+Then watch the magic happen. Make sure to review all changes that have been made to your project and that they are correct. Open a new issue and submit a fix if there is a way to improve the project.
 
 ## Generated Resources usage
-Inside the main project you can access `locolized strings` like this
+Inside the main project you can access `localized strings` like this
 `R.{stringInCammelCase}`
 
 EX: `self.title = R.awesomeTitle`
-this will return a locolised version of "Awesome Title"
+this will return a localized version of "Awesome Title"
 
 
 ## Useful resources
