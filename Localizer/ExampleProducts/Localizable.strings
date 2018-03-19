@@ -1,0 +1,507 @@
+
+/** denotesPreferredAccount **/
+"denotesPreferredAccount" = "* denotes preferred account";
+
+/** abandonedDeal **/
+"abandonedDeal" = "Abandoned Deal";
+
+/** addDealer **/
+"addDealer" = "Add Dealer";
+
+/** addNote **/
+"addNote" = "Add Note";
+
+/** additionalImageLu **/
+"additionalImageLu" = "Additional Image %lu";
+
+/** address **/
+"address" = "Address";
+
+/** addressLine2 **/
+"addressLine2" = "Address Line 2";
+
+/** advancedFiltering **/
+"advancedFiltering" = "Advanced Filtering";
+
+/** allRegions **/
+"allRegions" = "All Regions";
+
+/** allStatuses **/
+"allStatuses" = "All Statuses";
+
+/** applyFilters **/
+"applyFilters" = "Apply Filters";
+
+/** appraisedValue **/
+"appraisedValue" = "Appraised Value";
+
+/** areYouSure **/
+"areYouSure" = "Are you sure?";
+
+/** arrived **/
+"arrived" = "Arrived";
+
+/** arrivedDate **/
+"arrivedDate" = "Arrived Date";
+
+/** authenticating **/
+"authenticating" = "Authenticating";
+
+/** automatic **/
+"automatic" = "Automatic";
+
+/** bosAwaiting **/
+"bosAwaiting" = "BOS Awaiting";
+
+/** bosCompleted **/
+"bosCompleted" = "BOS Completed";
+
+/** bosHistory **/
+"bosHistory" = "BOS History";
+
+/** bosNotApproved **/
+"bosNotApproved" = "BOS Not Approved";
+
+/** badCredentials **/
+"badCredentials" = "Bad Credentials";
+
+/** burn **/
+"burn" = "Burn";
+
+/** buyerSignature **/
+"buyerSignature" = "Buyer Signature*";
+
+/** city **/
+"city" = "City";
+
+/** citystatezip **/
+"citystatezip" = "City/State/Zip";
+
+/** clean **/
+"clean" = "Clean";
+
+/** clearFilters **/
+"clearFilters" = "Clear Filters";
+
+/** collectSignatures **/
+"collectSignatures" = "Collect Signatures";
+
+/** color **/
+"color" = "Color";
+
+/** componentDoesNotApply **/
+"componentDoesNotApply" = "Component does not apply";
+
+/** componentIsAcceptable **/
+"componentIsAcceptable" = "Component is acceptable";
+
+/** componentIsUnacceptable **/
+"componentIsUnacceptable" = "Component is unacceptable";
+
+/** componentNeedsFurtherReview **/
+"componentNeedsFurtherReview" = "Component needs further review";
+
+/** confirm **/
+"confirm" = "Confirm";
+
+/** create **/
+"create" = "Create";
+
+/** date **/
+"date" = "Date";
+
+/** dateCreated **/
+"dateCreated" = "Date Created";
+
+/** dealerAddress **/
+"dealerAddress" = "Dealer Address";
+
+/** displacement **/
+"displacement" = "Displacement";
+
+/** driverName **/
+"driverName" = "Driver Name";
+
+/** driverPhone **/
+"driverPhone" = "Driver Phone";
+
+/** drivetrain **/
+"drivetrain" = "Drivetrain";
+
+/** editInspection **/
+"editInspection" = "Edit Inspection";
+
+/** editShipmentDetails **/
+"editShipmentDetails" = "Edit Shipment Details";
+
+/** editShipmentVehicles **/
+"editShipmentVehicles" = "Edit Shipment Vehicles";
+
+/** editTitle **/
+"editTitle" = "Edit Title";
+
+/** editVehicles **/
+"editVehicles" = "Edit Vehicles";
+
+/** email **/
+"email" = "Email";
+
+/** end **/
+"end" = "End:";
+
+/** engineSize **/
+"engineSize" = "Engine Size";
+
+/** error **/
+"error" = "Error";
+
+/** fail **/
+"fail" = "Fail";
+
+/** firstInspection **/
+"firstInspection" = "First Inspection";
+
+/** fixed **/
+"fixed" = "Fixed";
+
+/** front **/
+"front" = "Front";
+
+/** fullInspectionPdf **/
+"fullInspectionPdf" = "Full Inspection PDF";
+
+/** fullPurchase **/
+"fullPurchase" = "Full Purchase";
+
+/** initial **/
+"initial" = "Initial";
+
+/** inspectionOverview **/
+"inspectionOverview" = "Inspection Overview";
+
+/** inspectionSummary **/
+"inspectionSummary" = "Inspection Summary";
+
+/** inspectionTool **/
+"inspectionTool" = "Inspection Tool";
+
+/** inspector **/
+"inspector" = "Inspector";
+
+/** inspectorName **/
+"inspectorName" = "Inspector Name";
+
+/** insuranceClassification **/
+"insuranceClassification" = "Insurance Classification";
+
+/** lastModified **/
+"lastModified" = "Last Modified";
+
+/** lastKnownLocation **/
+"lastKnownLocation" = "Last known location";
+
+/** loading **/
+"loading" = "Loading";
+
+/** loadingVehicles **/
+"loadingVehicles" = "Loading Vehicles...";
+
+/** logout **/
+"logout" = "Logout";
+
+/** make **/
+"make" = "Make";
+
+/** manager **/
+"manager" = "Manager";
+
+/** manual **/
+"manual" = "Manual";
+
+/** markArrived **/
+"markArrived" = "Mark Arrived";
+
+/** markInTransit **/
+"markInTransit" = "Mark in Transit";
+
+/** mileage **/
+"mileage" = "Mileage";
+
+/** model **/
+"model" = "Model";
+
+/** na **/
+"na" = "N/A";
+
+/** nadaCleanTrade **/
+"nadaCleanTrade" = "NADA Clean Trade";
+
+/** name **/
+"name" = "Name";
+
+/** needsAttention **/
+"needsAttention" = "Needs Attention";
+
+/** newVehicleInformation **/
+"newVehicleInformation" = "New Vehicle Information";
+
+/** no **/
+"no" = "No";
+
+/** noInspector **/
+"noInspector" = "No Inspector";
+
+/** noPrice **/
+"noPrice" = "No Price";
+
+/** notes **/
+"notes" = "Notes";
+
+/** ok **/
+"ok" = "OK";
+
+/** odometer **/
+"odometer" = "Odometer";
+
+/** odometerDisclosure **/
+"odometerDisclosure" = "Odometer Disclosure";
+
+/** options **/
+"options" = "Options";
+
+/** other **/
+"other" = "Other";
+
+/** otherClassification **/
+"otherClassification" = "Other Classification";
+
+/** paid **/
+"paid" = "Paid";
+
+/** partsReplacedrepaired **/
+"partsReplacedrepaired" = "Parts Replaced/Repaired";
+
+/** partsReplacedrepairs **/
+"partsReplacedrepairs" = "Parts Replaced/Repairs*";
+
+/** password **/
+"password" = "Password";
+
+/** payment **/
+"payment" = "Payment";
+
+/** paymentRequested **/
+"paymentRequested" = "Payment Requested";
+
+/** pending **/
+"pending" = "Pending";
+
+/** phone **/
+"phone" = "Phone";
+
+/** photoLibrary **/
+"photoLibrary" = "Photo Library";
+
+/** pleaseWait **/
+"pleaseWait" = "Please Wait";
+
+/** preferred **/
+"preferred" = "Preferred";
+
+/** purchasePrice **/
+"purchasePrice" = "Purchase Price";
+
+/** quickPay **/
+"quickPay" = "Quick Pay";
+
+/** reason **/
+"reason" = "Reason";
+
+/** reinspection **/
+"reinspection" = "Reinspection";
+
+/** reject **/
+"reject" = "Reject";
+
+/** rejectInspection **/
+"rejectInspection" = "Reject Inspection?";
+
+/** rejected **/
+"rejected" = "Rejected";
+
+/** requestPayment **/
+"requestPayment" = "Request Payment";
+
+/** reset **/
+"reset" = "Reset";
+
+/** retakeImages **/
+"retakeImages" = "Retake Images";
+
+/** retry **/
+"retry" = "Retry";
+
+/** reviewBos **/
+"reviewBos" = "Review BOS";
+
+/** salvage **/
+"salvage" = "Salvage";
+
+/** save **/
+"save" = "Save";
+
+/** savedPhotos **/
+"savedPhotos" = "Saved Photos";
+
+/** search **/
+"search" = "Search";
+
+/** searchEverywhere **/
+"searchEverywhere" = "Search Everywhere";
+
+/** searchProcesses **/
+"searchProcesses" = "Search Processes";
+
+/** searchShipments **/
+"searchShipments" = "Search Shipments";
+
+/** searching **/
+"searching" = "Searching";
+
+/** selectArea **/
+"selectArea" = "Select Area";
+
+/** selectVehicle **/
+"selectVehicle" = "Select Vehicle";
+
+/** selectAnAccount **/
+"selectAnAccount" = "Select an Account";
+
+/** seller **/
+"seller" = "Seller";
+
+/** sellerSignature **/
+"sellerSignature" = "Seller Signature*";
+
+/** sendToSupplier **/
+"sendToSupplier" = "Send to Supplier";
+
+/** shipmentDetails **/
+"shipmentDetails" = "Shipment Details";
+
+/** shipmentFilters **/
+"shipmentFilters" = "Shipment Filters";
+
+/** shipmentInformation **/
+"shipmentInformation" = "Shipment Information";
+
+/** shipmentNo **/
+"shipmentNo" = "Shipment No - %@";
+
+/** shipmentStatus **/
+"shipmentStatus" = "Shipment Status";
+
+/** shipments **/
+"shipments" = "Shipments";
+
+/** shipping **/
+"shipping" = "Shipping";
+
+/** shippingFrom **/
+"shippingFrom" = "Shipping From";
+
+/** shippingTo **/
+"shippingTo" = "Shipping To";
+
+/** state **/
+"state" = "State";
+
+/** status **/
+"status" = "Status - %@";
+
+/** submit **/
+"submit" = "Submit";
+
+/** supplier **/
+"supplier" = "Supplier";
+
+/** supplierNumber **/
+"supplierNumber" = "Supplier Number";
+
+/** supplyingLocation **/
+"supplyingLocation" = "Supplying Location";
+
+/** takePhoto **/
+"takePhoto" = "Take photo";
+
+/** title **/
+"title" = "Title";
+
+/** titleBackImage **/
+"titleBackImage" = "Title Back Image";
+
+/** titleClassification **/
+"titleClassification" = "Title Classification";
+
+/** titleFrontImage **/
+"titleFrontImage" = "Title Front Image";
+
+/** titleHistory **/
+"titleHistory" = "Title History";
+
+/** titlePdf **/
+"titlePdf" = "Title PDF";
+
+/** toReinspectAsmShop **/
+"toReinspectAsmShop" = "To Reinspect @ ASM Shop";
+
+/** totalUnits **/
+"totalUnits" = "Total Units";
+
+/** trim **/
+"trim" = "Trim";
+
+/** trimseries **/
+"trimseries" = "Trim/Series";
+
+/** unableToLogIn **/
+"unableToLogIn" = "Unable to log in";
+
+/** unauthorized **/
+"unauthorized" = "Unauthorized";
+
+/** update **/
+"update" = "Update";
+
+/** username **/
+"username" = "Username";
+
+/** vehicleApproved **/
+"vehicleApproved" = "Vehicle Approved";
+
+/** vehicleImport **/
+"vehicleImport" = "Vehicle Import";
+
+/** vehicleInformation **/
+"vehicleInformation" = "Vehicle Information";
+
+/** vehiclePendingApproval **/
+"vehiclePendingApproval" = "Vehicle Pending Approval";
+
+/** vehicleSearch **/
+"vehicleSearch" = "Vehicle Search";
+
+/** warning **/
+"warning" = "Warning";
+
+/** waterRecovery **/
+"waterRecovery" = "Water Recovery";
+
+/** year **/
+"year" = "Year";
+
+/** yourChangesWillBeLost **/
+"yourChangesWillBeLost" = "Your changes will be lost";
+
+/** zipCode **/
+"zipCode" = "Zip Code";

@@ -1,0 +1,342 @@
+
+"clean" = "Clean";
+
+"vehicleApproved" = "Vehicle Approved";
+
+"displacement" = "Displacement";
+
+"paymentRequested" = "Payment Requested";
+
+"state" = "State";
+
+"make" = "Make";
+
+"quickPay" = "Quick Pay";
+
+"applyFilters" = "Apply Filters";
+
+"retry" = "Retry";
+
+"yourChangesWillBeLost" = "Your changes will be lost";
+
+"phone" = "Phone";
+
+"city" = "City";
+
+"editTitle" = "Edit Title";
+
+"bosCompleted" = "BOS Completed";
+
+"componentNeedsFurtherReview" = "Component needs further review";
+
+"ok" = "OK";
+
+"loadingVehicles" = "Loading Vehicles...";
+
+"areYouSure" = "Are you sure?";
+
+"fullPurchase" = "Full Purchase";
+
+"notes" = "Notes";
+
+"engineSize" = "Engine Size";
+
+"shipmentStatus" = "Shipment Status";
+
+"arrived" = "Arrived";
+
+"reject" = "Reject";
+
+"password" = "Password";
+
+"titleClassification" = "Title Classification";
+
+"titleHistory" = "Title history";
+
+"inspectionSummary" = "Inspection Summary";
+
+"arrivedDate" = "Arrived Date";
+
+"driverName" = "Driver Name";
+
+"drivetrain" = "Drivetrain";
+
+"confirm" = "Confirm";
+
+"componentIsUnacceptable" = "Component is unacceptable";
+
+"insuranceClassification" = "Insurance Classification";
+
+"initial" = "Initial";
+
+"needsAttention" = "Needs Attention";
+
+"lastModified" = "Last Modified";
+
+"shipmentInformation" = "Shipment Information";
+
+"dealerAddress" = "Dealer Address";
+
+"requestPayment" = "Request Payment";
+
+"unableToLogIn" = "Unable to log in";
+
+"denotesPreferredAccount" = "* denotes preferred account";
+
+"badCredentials" = "Bad Credentials";
+
+"editShipmentVehicles" = "Edit Shipment Vehicles";
+
+"shipmentDetails" = "Shipment Details";
+
+"automatic" = "Automatic";
+
+"otherClassification" = "Other Classification";
+
+"addressLine2" = "Address Line 2";
+
+"toReinspectAsmShop" = "To Reinspect @ ASM Shop";
+
+"year" = "Year";
+
+"username" = "Username";
+
+"manager" = "Manager";
+
+"fixed" = "Fixed";
+
+"searchProcesses" = "Search Processes";
+
+"allStatuses" = "All Statuses";
+
+"loading" = "Loading";
+
+"payment" = "Payment";
+
+"vehiclePendingApproval" = "Vehicle Pending Approval";
+
+"trimseries" = "Trim/Series";
+
+"bosNotApproved" = "BOS Not Approved";
+
+"inspectionOverview" = "Inspection Overview";
+
+"email" = "Email";
+
+"titleHistory" = "Title History";
+
+"submit" = "Submit";
+
+"odometerDisclosure" = "Odometer Disclosure";
+
+"reason" = "Reason";
+
+"color" = "Color";
+
+"waterRecovery" = "Water Recovery";
+
+"update" = "Update";
+
+"selectVehicle" = "Select Vehicle";
+
+"inspector" = "Inspector";
+
+"vehicleImport" = "Vehicle Import";
+
+"logout" = "Logout";
+
+"sellerSignature" = "Seller Signature*";
+
+"pleaseWait" = "Please Wait";
+
+"retakeImages" = "Retake Images";
+
+"savedPhotos" = "Saved Photos";
+
+"searchEverywhere" = "Search Everywhere";
+
+"burn" = "Burn";
+
+"preferred" = "Preferred";
+
+"editShipmentDetails" = "Edit Shipment Details";
+
+"shippingFrom" = "Shipping From";
+
+"firstInspection" = "First Inspection";
+
+"pending" = "Pending";
+
+"name" = "Name";
+
+"partsReplacedrepaired" = "Parts Replaced/Repaired";
+
+"driverPhone" = "Driver Phone";
+
+"vehicleInformation" = "Vehicle Information";
+
+"citystatezip" = "City/State/Zip";
+
+"shipments" = "Shipments";
+
+"trim" = "Trim";
+
+"titlePdf" = "Title PDF";
+
+"addNote" = "Add Note";
+
+"bosHistory" = "BOS History";
+
+"lastKnownLocation" = "Last known location";
+
+"componentDoesNotApply" = "Component does not apply";
+
+"noPrice" = "No Price";
+
+"collectSignatures" = "Collect Signatures";
+
+"partsReplacedrepairs" = "Parts Replaced/Repairs*";
+
+"end" = "End:";
+
+"reinspection" = "Reinspection";
+
+"authenticating" = "Authenticating";
+
+"fail" = "Fail";
+
+"selectArea" = "Select Area";
+
+"inspectionTool" = "Inspection Tool";
+
+"inspectorName" = "Inspector Name";
+
+"reviewBos" = "Review BOS";
+
+"bosAwaiting" = "BOS Awaiting";
+
+"shipmentNo" = "Shipment No.";
+
+"markInTransit" = "Mark in Transit";
+
+"componentIsAcceptable" = "Component is acceptable";
+
+"seller" = "Seller";
+
+"reset" = "Reset";
+
+"salvage" = "Salvage";
+
+"status" = "Status - %@";
+
+"create" = "Create";
+
+"odometer" = "Odometer";
+
+"editVehicles" = "Edit Vehicles";
+
+"shippingTo" = "Shipping To";
+
+"titleBackImage" = "Title Back Image";
+
+"dateCreated" = "Date Created";
+
+"manual" = "Manual";
+
+"rejectInspection" = "Reject Inspection?";
+
+"error" = "Error";
+
+"searching" = "Searching";
+
+"paid" = "Paid";
+
+"no" = "No";
+
+"save" = "Save";
+
+"nadaCleanTrade" = "NADA Clean Trade";
+
+"noInspector" = "No Inspector";
+
+"supplyingLocation" = "Supplying Location";
+
+"date" = "Date";
+
+"shipping" = "Shipping";
+
+"editInspection" = "Edit Inspection";
+
+"sendToSupplier" = "Send to Supplier";
+
+"shipmentFilters" = "Shipment Filters";
+
+"additionalImageLu" = "Additional Image %lu";
+
+"front" = "Front";
+
+"supplierNumber" = "Supplier Number";
+
+"abandonedDeal" = "Abandoned Deal";
+
+"newVehicleInformation" = "New Vehicle Information";
+
+"address" = "Address";
+
+"fullInspectionPdf" = "Full Inspection PDF";
+
+"addDealer" = "Add Dealer";
+
+"options" = "Options";
+
+"rejected" = "Rejected";
+
+"unauthorized" = "Unauthorized";
+
+"searchShipments" = "Search Shipments";
+
+"totalUnits" = "Total Units";
+
+"advancedFiltering" = "Advanced Filtering";
+
+"na" = "N/A";
+
+"supplier" = "Supplier";
+
+"markArrived" = "Mark Arrived";
+
+"other" = "Other";
+
+"shipmentNo" = "Shipment No - %@";
+
+"appraisedValue" = "Appraised Value";
+
+"takePhoto" = "Take photo";
+
+"model" = "Model";
+
+"purchasePrice" = "Purchase Price";
+
+"allRegions" = "All Regions";
+
+"zipCode" = "Zip Code";
+
+"warning" = "Warning";
+
+"clearFilters" = "Clear Filters";
+
+"buyerSignature" = "Buyer Signature*";
+
+"titleFrontImage" = "Title Front Image";
+
+"title" = "Title";
+
+"photoLibrary" = "Photo Library";
+
+"mileage" = "Mileage";
+
+"vehicleSearch" = "Vehicle Search";
+
+"search" = "Search";
+
+"selectAnAccount" = "Select an Account";
