@@ -6,96 +6,64 @@
 //  Copyright © 2018 MacMeDan. All rights reserved.
 //
 
+/*
+ Need to find the localizable.strings file
+ Need to fine the Resources.swift File
+    If the Resources.swift file does not exsist need to create it.
+ */
+
+
+/*
+# Update this path to point to the folder you would like to scan for raw strings.
+export BASE_FOLDER="${SRCROOT}/${REVEAL_SERVER_FILENAME}"
+
+export RESOURCE_SWIFT="../Resources.swift"
+export LOCALISED_STRINGS="../Localisable.strings"
+
+./youDaBest "/Users/macmedan/Swift/auto-source-inspection/InspectionTool/Views" "../Localisable.strings" "../Resources.swift"
+*/
+
 import Foundation
+var pathToProject: String
+var stringFilePath: String
+var resourceFilePath: String
 
-func error() -> String {
-    print("""
-        No `:` found please try again
-        """, terminator: "")
-    return readLine()!
-}
+var rootDirectory: URL
+var urlToLocalizable: URL
+var resouceURL: URL
+var baseFolderURL: URL
 
-func containsColin(_ string: String) -> Bool {
-    return string.contains(":")
-}
+var numberOfUnlocalisedStrings: Int = 0
 
-// MARK: Setup
-print("""
-    Enter base path to project.
 
-    """, terminator: "")
-pathToProject = readLine()!
+if CommandLine.arguments.count == 1 {
 
-print("""
-    Enter relative path to Localizable.strings file.
+    UserPrompt().askTheHardQuestions()
 
-    """, terminator: "")
-sourceFilePath = readLine()!
+} else {
+    
+    let fileManager = FileManager.default
 
-print("""
-    Enter relative path to Resource.swift file.
+    rootDirectory = URL(fileURLWithPath: fileManager.currentDirectoryPath)
+    print("Current directory: \(rootDirectory.absoluteString)")
+    urlToLocalizable = rootDirectory.appendingPathComponent("Localisable.strings")
+    resouceURL = rootDirectory.appendingPathComponent("Resource.swift")
 
-    """, terminator: "")
-resourceFilePath = readLine()!
-
-// MARK: Options
-print("""
-    Please select an option:
-    1) Add new entry with auto gernerated key
-    2) Add new entry with specified key
-    3) Generate Resources
-    4) Generate Strings
-    5) Generate Strings Sorted by Value not Key
-    6) Find Strings in file
-
-    """, terminator: "")
-let answer = readLine()!
-
-if answer == "1" {
-    print("""
-    Please enter the string you would like to locolize:
-
-    """, terminator: "")
-    let newString = readLine()!
-    print("using Key: \(newString.camelCased)")
-    locolizeNewString(newString)
-}
-
-if answer == "2" {
-    print("""
-    Please enter the Key : Value you would like to add:
-
-    """, terminator: "")
-    let newString = readLine()!
-
-    if containsColin(newString){
-        let componets = newString.components(separatedBy: ":")
-        guard componets.count == 2 else {
-            fatalError("Should only be 1 colin in input.")
-        }
-        let newKey = componets.first
-        let newValue = componets.last!
-        locolizeNewString(newValue, newKey: newKey)
+    CommandLine.arguments.forEach {
+        print($0)
     }
+
+    let folderPath = CommandLine.arguments[1]
+    baseFolderURL = URL(fileURLWithPath: folderPath)
+//    let baseFolder = fileManager.enumerator(atPath: "/Users/macmedan/Swift/auto-source-inspection/InspectionTool/Views")
+
+    let baseFolder = fileManager.enumerator(atPath: folderPath)
+
+    while let path = baseFolder?.nextObject() as? String {
+        if path.hasSuffix("swift") { // check only swift files
+            FileLocalizer().findUnlocalisedStringsIn(file: path)
+        }
+    }
+
 }
 
-if answer == "3" {
-    generateResourceEnum()
-}
-
-if answer == "4" {
-    generateNewStringsFile()
-}
-
-if answer == "5" {
-    generateNewStringsSortedByKey()
-}
-
-if answer == "6" {
-    print("""
-    What is the full path to the file you would like to convert
-
-    """, terminator: "")
-    let filePath = readLine()!
-    findUnlocalisedStrings(fromFilePath: filePath)
-}
