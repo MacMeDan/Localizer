@@ -49,9 +49,7 @@ if CommandLine.arguments.count == 1 {
     urlToLocalizable = rootDirectory.appendingPathComponent("Localisable.strings")
     resouceURL = rootDirectory.appendingPathComponent("Resource.swift")
 
-    CommandLine.arguments.forEach {
-        print($0)
-    }
+    CommandLine.arguments.forEach { print($0) }
 
     let folderPath = CommandLine.arguments[1]
     baseFolderURL = URL(fileURLWithPath: folderPath)
@@ -60,9 +58,11 @@ if CommandLine.arguments.count == 1 {
     let baseFolder = fileManager.enumerator(atPath: folderPath)
 
     while let path = baseFolder?.nextObject() as? String {
+
         if path.hasSuffix("swift") { // check only swift files
             FileLocalizer().findUnlocalisedStringsIn(file: path)
         }
+        
     }
 
 }

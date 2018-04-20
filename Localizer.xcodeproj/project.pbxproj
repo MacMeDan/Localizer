@@ -65,13 +65,26 @@
 			path = ExampleProducts;
 			sourceTree = "<group>";
 		};
-		2C206F8A204F22F8001BEDFF /* extensions */ = {
+		2C206F8A204F22F8001BEDFF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				2C206F86204F22A1001BEDFF /* Strings.swift */,
 				2C206F88204F22E5001BEDFF /* URL.swift */,
 			);
-			path = extensions;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2C7504C9208A922A00EA147F /* ScriptFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2C9F99E9204DF4180083E662 /* main.swift */,
+				2C2B99B7205B10E900A41520 /* FileLocalizer.swift */,
+				2CF297922078284400CEC01D /* UserPrompt.swift */,
+				2C206F8B204F2723001BEDFF /* ResourceGenerator.swift */,
+				2CF29794207830D900CEC01D /* LocalisableGenerator.swift */,
+				2C206F8A204F22F8001BEDFF /* Extensions */,
+			);
+			path = ScriptFiles;
 			sourceTree = "<group>";
 		};
 		2C9F99DD204DF4180083E662 = {
@@ -93,14 +106,9 @@
 		2C9F99E8204DF4180083E662 /* Localizer */ = {
 			isa = PBXGroup;
 			children = (
-				2C9F99E9204DF4180083E662 /* main.swift */,
-				2C2B99B7205B10E900A41520 /* FileLocalizer.swift */,
-				2CF297922078284400CEC01D /* UserPrompt.swift */,
-				2C206F8B204F2723001BEDFF /* ResourceGenerator.swift */,
-				2CF29794207830D900CEC01D /* LocalisableGenerator.swift */,
+				2C7504C9208A922A00EA147F /* ScriptFiles */,
 				2C05F12A20601DC800087955 /* ExampleProducts */,
 				2C206F84204F202D001BEDFF /* README.md */,
-				2C206F8A204F22F8001BEDFF /* extensions */,
 			);
 			path = Localizer;
 			sourceTree = "<group>";

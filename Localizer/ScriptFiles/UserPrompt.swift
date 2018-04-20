@@ -5,8 +5,9 @@
 //  Created by Dan Leonard on 4/6/18.
 //  Copyright © 2018 MacMeDan. All rights reserved.
 //
+
 /**
-    This file provides the basic commandline user interface for handleing certain tasks when options are selected
+    This file provides the basic commandline user prompts and excicutes the code for the option selected
 **/
 
 class UserPrompt {
