@@ -38,7 +38,7 @@ Inside the main project you can access `localized strings` like this
 EX: `self.title = R.awesomeViewController`
 this will return a localized version of "Awesome View Controller"
 
-# Command Line tool usage
+# Command Line Tool usage
 
 Specify the source file
 Specify the destination file
