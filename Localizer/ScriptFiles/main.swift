@@ -46,19 +46,32 @@ if CommandLine.arguments.count == 1 {
 
     rootDirectory = URL(fileURLWithPath: fileManager.currentDirectoryPath)
     print("Current directory: \(rootDirectory.absoluteString)")
-    urlToLocalizable = rootDirectory.appendingPathComponent("Localisable.strings")
-    resouceURL = rootDirectory.appendingPathComponent("Resource.swift")
 
+    if let localizalbeURL = Bundle.main.url(forResource: "Localisable", withExtension: "strings") {
+        urlToLocalizable = localizalbeURL
+        print(" ✅ Localizable.strings found: \(urlToLocalizable.absoluteString)")
+    } else {
+        urlToLocalizable = rootDirectory.appendingPathComponent("Localisable.strings")
+        fileManager.createFile(atPath: urlToLocalizable.path, contents: nil)
+        print("Could not find Localisable.strings so one was created: \(urlToLocalizable.absoluteString)")
+    }
+
+    if let resoucePath = Bundle.main.url(forResource: "Resource", withExtension: "swift") {
+        resouceURL = resoucePath
+        print(" ✅ Resource.swift found: \(resouceURL.absoluteString)")
+    } else {
+        resouceURL = rootDirectory.appendingPathComponent("Resource.swift")
+        fileManager.createFile(atPath: resouceURL.path, contents: nil)
+        print("Could not find Resource.swift so one was created: \(resouceURL.absoluteString)")
+    }
+    
     CommandLine.arguments.forEach { print($0) }
 
-    let folderPath = CommandLine.arguments[1]
-    baseFolderURL = URL(fileURLWithPath: folderPath)
-//    let baseFolder = fileManager.enumerator(atPath: "/Users/macmedan/Swift/auto-source-inspection/InspectionTool/Views")
-
-    let baseFolder = fileManager.enumerator(atPath: folderPath)
-
+    baseFolderURL = rootDirectory.appendingPathComponent(CommandLine.arguments[1])
+    let baseFolder = fileManager.enumerator(atPath: baseFolderURL.path)
+    print("baseFolderURL", baseFolderURL)
     while let path = baseFolder?.nextObject() as? String {
-
+        print(path)
         if path.hasSuffix("swift") { // check only swift files
             FileLocalizer().findUnlocalisedStringsIn(file: path)
         }

@@ -26,7 +26,7 @@ Then run:
 `swiftc Localizer/ScriptFiles* -o LocalizerScript`
 
 This creates an executable named `LocalizerScript`. To use this script you preface it with `./` then the script `LocalizerScript` add a space to seperate the script from the parameter then add the parameter which is a path to a folder in your project.
-`./Localizer "/path/to/folder/you/would/like/scanned/and/converted"`
+`./LocalizerScript "/path/to/folder/you/would/like/scanned/and/converted"`
 
 Then watch the magic happen. WARNING: Make sure to review all changes that have been made to your project and that they are correct. Open a new issue and submit a fix if there is a way to improve the project.
 

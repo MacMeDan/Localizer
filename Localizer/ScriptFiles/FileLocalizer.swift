@@ -68,7 +68,6 @@ class FileLocalizer {
         let fileURL = baseFolderURL
             .appendingPathComponents(filePath.components(separatedBy: "/"))
         do {
-
             let fileData = try String(
                 contentsOf: baseFolderURL
                     .appendingPathComponents(
@@ -80,7 +79,6 @@ class FileLocalizer {
             let lines = fileData.components(separatedBy: .newlines)
 
             let converted: [String] = lines.map { line in
-
                 if checkIgnoredValues(line: line) { return line }
                 var components = line.components(separatedBy: "\"")
                 for item in 0...components.count-1 {

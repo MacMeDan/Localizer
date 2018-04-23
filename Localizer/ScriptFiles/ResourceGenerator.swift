@@ -45,6 +45,7 @@ class ResourceGenerator {
 
         """
 
+        print("Generate Resouce at Path: \(resouceURL.path)")
         writeData(contents, path: resouceURL) { _ in
             numberOfUnlocalisedStrings += 1
         }
@@ -55,7 +56,7 @@ class ResourceGenerator {
 func writeData( _ newData: String, path: URL, completion:((String) -> Void)) {
     do {
         try newData.write(to: path, atomically: true, encoding: .utf8)
-        print("🤯 Converted \(numberOfUnlocalisedStrings) \(path.lastPathComponent)")
+        print(" 🤯 Converted \(numberOfUnlocalisedStrings) \(path.lastPathComponent)")
         completion("Sucsess Writing to path: \(path)")
     } catch {
         completion(error.localizedDescription)

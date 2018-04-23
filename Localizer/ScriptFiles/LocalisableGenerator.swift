@@ -20,7 +20,7 @@ class LocalisableGenerator {
         }
 
         let allValues = Array(Set(NSDictionary(contentsOf:urlToLocalizable)!.allValues as! [String]))
-        newData = allValues.flatMap{ getCommentAndEntry(value: $0) }.joined()
+        newData = allValues.compactMap{ getCommentAndEntry(value: $0) }.joined()
 
         writeData(newData, path: urlToLocalizable) { _ in
             ResourceGenerator().generate()
@@ -36,10 +36,10 @@ class LocalisableGenerator {
             return
         }
         let allValues = Array(dict
-            .flatMap{ $0 })
+            .compactMap{ $0 })
             .sorted{ ($0.1 as! String) < ($1.1 as! String )}
 
-        newData = allValues.flatMap{getCommentAndEntry(key: ($0.0 as! String), value: ($0.1 as! String))}.joined()
+        newData = allValues.compactMap{getCommentAndEntry(key: ($0.0 as! String), value: ($0.1 as! String))}.joined()
 
         writeData(newData, path: urlToLocalizable) { _ in
             ResourceGenerator().generate()
